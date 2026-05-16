@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "sync": "cap sync",
     "android": "npm run build && cap sync android && cap open android",
-    "android:run": "npm run build && cap run android"
+    "android:run": "npm run build && cap run android",
+    "android:apk": "bash scripts/build-apk.sh"
   },
   "dependencies": {
     "@capacitor/android": "^8.3.4",
