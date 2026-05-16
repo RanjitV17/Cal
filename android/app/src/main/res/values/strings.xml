@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Ladder</string>
+    <string name="title_activity_main">Ladder</string>
+    <string name="package_name">com.ranjit.ladder</string>
+    <string name="custom_url_scheme">com.ranjit.ladder</string>
+</resources>

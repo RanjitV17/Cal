@@ -15,6 +15,7 @@ export function Nav() {
     <nav
       className="fixed bottom-0 inset-x-0 z-30 border-t border-white/5 bg-zinc-950/85 backdrop-blur
                  md:static md:border-none md:bg-transparent md:backdrop-blur-0"
+      style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
     >
       <div
         className="mx-auto flex max-w-3xl items-stretch justify-around px-2 py-1

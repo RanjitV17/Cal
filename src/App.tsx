@@ -9,7 +9,13 @@ import { Routine } from "@/pages/Routine";
 export default function App() {
   return (
     <div className="min-h-full">
-      <div className="mx-auto flex min-h-screen max-w-3xl flex-col px-4 pb-24 pt-6 md:max-w-5xl md:flex-row md:gap-8 md:px-8 md:pb-8">
+      <div
+        className="mx-auto flex min-h-screen max-w-3xl flex-col px-4 md:max-w-5xl md:flex-row md:gap-8 md:px-8 md:pb-8"
+        style={{
+          paddingTop: "calc(env(safe-area-inset-top, 0px) + 1.5rem)",
+          paddingBottom: "calc(env(safe-area-inset-bottom, 0px) + 6rem)",
+        }}
+      >
         <aside className="md:sticky md:top-8 md:h-[calc(100vh-4rem)] md:w-52 md:shrink-0">
           <header className="mb-6 flex items-center gap-3 md:mb-8">
             <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-indigo-500 to-rose-500 shadow-glow">
